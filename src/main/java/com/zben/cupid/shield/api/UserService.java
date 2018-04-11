@@ -15,4 +15,6 @@ public interface UserService {
      * @return
      */
     UserVo get(String userId);
+
+    UserVo getByAccountOrPhone(String account);
 }
