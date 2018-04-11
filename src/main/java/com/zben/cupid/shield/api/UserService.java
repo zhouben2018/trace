@@ -17,4 +17,5 @@ public interface UserService {
     UserVo get(String userId);
 
     UserVo getByAccountOrPhone(String account);
+
 }
