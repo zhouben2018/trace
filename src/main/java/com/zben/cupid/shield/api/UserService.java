@@ -1,5 +1,6 @@
 package com.zben.cupid.shield.api;
 
+import com.zben.cupid.clue.model.CUser;
 import com.zben.cupid.shield.model.UserVo;
 
 /**
@@ -18,4 +19,5 @@ public interface UserService {
 
     UserVo getByAccountOrPhone(String account);
 
+    CUser getCrmId(String id);
 }
